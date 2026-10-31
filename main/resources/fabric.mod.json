@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "spcombat",
+  "version": "1.1.0",
+  "name": "Menemen Client",
+  "description": "Tek oyunculu icin savas ve gorsel yardimcilar.",
+  "authors": ["Sen"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.spcombat.SpCombatClient"]
+  },
+  "mixins": ["spcombat.mixins.json", "spcombat.wings.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

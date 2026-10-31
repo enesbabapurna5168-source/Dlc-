@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.example.spcombat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "WingsMixin",
+    "SwingMixin",
+    "ViewModelMixin",
+    "UseCooldownAccessor",
+    "JumpCooldownAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
